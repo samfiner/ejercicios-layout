@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>document</title>
+
+  <style>
+
+      #container{
+          width: 70%;
+          margin: auto;
+
+      }
+      #logo{
+          float: left;
+          border: 1px solid green;
+
+      }
+      h1{
+          float: right;
+          border: 1px solid red;
+          width:5em;
+
+      }
+      header{
+         overflow: hidden;
+
+      }
+      nav{
+          border: 1px solid yellow;
+          margin-top: 15em;
+          background: rgb(136, 238, 136)
+      }
+      ul{
+          list-style: none;
+      }
+      li{
+          display: inline-block;
+      }
+      a{
+          text-decoration: none;
+      }
+      #primerli{
+          border-right:2px dashed gray;
+         padding-right: 0.5em;
+          
+      }
+      main{
+          float: left;
+          margin-left:7em;
+      }
+      aside{
+          float:right;
+          margin-right: 10em;
+         
+      }
+
+
+  </style>
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <picture id="logo">
+                 <img src="imagenes/lio7163-300x300.jpg" alt="" width="200px" height="200px">
+            </picture>
+            <h1> American Heart Asociation</h1>
+            <nav>
+                <ul>
+                    <li id="primerli"> <a href="#"> Enlace 1</a></li>
+                    <li> <a href="#"> Enlace 2</a></li>
+
+
+                </ul>
+
+
+
+            </nav>
+          
+
+        </header>
+        <main>
+
+            <form action="#">
+                <p>
+                        <label for="nombre"> Name></label>
+                        <input type="text" Name="nombre" id="nombre">
+                </p>
+
+                <p>
+               <label for="nombre"> email  address></label>
+               <input type="email" Name="nombre" id="nombre">
+               </p>
+               <p>
+                   
+               <label for="">comments</label>
+               <textarea name="comentario"id="comentario"cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+               <input type="submit" value="submit" >
+            </p>
+
+             
+
+                
+
+            </form>
+        </main>
+        <aside>
+        <picture id="foto">
+            <img src="imagenes/lio123456.jpg" alt="" width="200px" height="200">
+        </picture>
+        <p>
+             Descripcion of Qualifications of client
+         </p>
+        </aside>
+    </div>
+
+    
+</body>
+</html>
